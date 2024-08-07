@@ -8,7 +8,8 @@ Will Answer Some Questions About MH
 Yes, mikeyhub in the future will become open sourced. However, premium wont be opensourced.
 
 # Is MikeyHub Mobile Supported:
-Yes, Mikeyhub is supported, expect lag on some features though.
+Yes, Mobile is supported, expect lag on some features though.
 
 # What Are The Current Executors Supported By MikeyHUB:
+- Wave (best executor to use)
 - Solara (some features aren't supported though)
