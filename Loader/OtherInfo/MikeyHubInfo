@@ -1,4 +1,5 @@
 return {
 ["Version"] = "v1.0",
-["Owner"] = "jakefromjakesfarm"
+["Owner"] = "jakefromjakesfarm",
+["Status"] = "ALL GAMES ARE WORKING"
 }
