@@ -17,6 +17,34 @@ if getgenv().enabled == true then
     getgenv().enabled = true
 end
 
+local function applyTeamColor(v, esp)
+    -- Retry mechanism in case TeamColor is not immediately available
+    for i = 1, 3 do
+        if filluseteamcolor and v.TeamColor then
+            esp.FillColor = v.TeamColor.Color
+            break
+        elseif filluseteamcolor then
+            task.wait(0.1) -- Small delay before retrying
+        else
+            esp.FillColor = fillcolor
+            break
+        end
+    end
+
+    -- Same logic for OutlineColor
+    for i = 1, 3 do
+        if outlineuseteamcolor and v.TeamColor then
+            esp.OutlineColor = v.TeamColor.Color
+            break
+        elseif outlineuseteamcolor then
+            task.wait(0.1)
+        else
+            esp.OutlineColor = outlinecolor
+            break
+        end
+    end
+end
+
 while getgenv().enabled do
     task.wait()
     for _, v in pairs(game.Players:GetPlayers()) do
@@ -25,18 +53,10 @@ while getgenv().enabled do
             local esp = holder:FindFirstChild(v.Name) or Instance.new("Highlight")
             esp.Name = v.Name
             if uselocalplayer == false and esp.Name == game.Players.LocalPlayer.Name then
+                -- Skip ESP for the local player if uselocalplayer is false
             else
                 esp.Parent = holder
-                if filluseteamcolor and v.TeamColor then
-                    esp.FillColor = v.TeamColor.Color
-                else
-                    esp.FillColor = fillcolor 
-                end
-                if outlineuseteamcolor and v.TeamColor then
-                    esp.OutlineColor = v.TeamColor.Color
-                else
-                    esp.OutlineColor = outlinecolor    
-                end
+                applyTeamColor(v, esp)
                 esp.FillTransparency = filltrans
                 esp.OutlineTransparency = outlinetrans
                 esp.Adornee = chr
