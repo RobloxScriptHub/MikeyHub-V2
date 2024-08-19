@@ -1,6 +1,6 @@
 return {
 ["Version"] = "v1.5.2",
 ["Owner"] = "jakefromjakesfarm",
-["Status"] = "ALL SCRIPTS/GAMES ARE WORKING, SOLARA MAY BE PATCHED ON SOME SCRIPTS.",
-["KeySystemDown"] = false
+["Status"] = "Currently down for a small update, will be done in 10  minutes.",
+["KeySystemDown"] = true
 }
