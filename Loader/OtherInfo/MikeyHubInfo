@@ -1,6 +1,6 @@
 return {
 ["Version"] = "v1.5.2",
 ["Owner"] = "jakefromjakesfarm",
-["Status"] = "Currently down for a small update, will be done in 10  minutes.",
-["KeySystemDown"] = true
+["Status"] = "All scripts are up and running, solara and some other shitty executors MAY not support the games or key system.",
+["KeySystemDown"] = false
 }
