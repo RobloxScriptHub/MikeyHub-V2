@@ -1,6 +1,7 @@
 return {
-["Version"] = "v1.9.3",
-["Owner"] = "jakefromjakesfarm",
-["Status"] = "All scripts are up and running, solara and some other shitty executors MAY not support the games or key system.",
-["KeySystemDown"] = false
+    ["Version"] = "v1.9.3",
+    ["Owner"] = "jakefromjakesfarm",
+    ["Status"] = "All scripts are up and running, solara and some other shitty executors MAY not support the games or key system.",
+    ["KeySystemDown"] = false,
+    ["NonSupportedExes"] = {"Solara", "Delta"}
 }
