@@ -2,6 +2,7 @@ return {
     ["Version"] = "v1.9.3",
     ["Owner"] = "jakefromjakesfarm",
     ["Status"] = "All scripts are up and running, solara and some other shitty executors MAY not support the games or key system.",
+    ["TOS"] = "MikeyHub collects data including ClientID, Roblox Username, Display Name, UserID, Account Age, Executor, and Device information. This data is not harmful or malicious. We use it to blacklist or whitelist users and to track script usage. By completing the key system and loading any GUIs, you agree to MikeyHub's Terms of Service and consent to this data collection.",
     ["KeySystemDown"] = false,
     ["NonSupportedExes"] = {"Solara", "Delta"}
 }
