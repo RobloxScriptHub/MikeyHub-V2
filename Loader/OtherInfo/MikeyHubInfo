@@ -3,6 +3,6 @@ return {
     ["Owner"] = "jakefromjakesfarm",
     ["Status"] = "All scripts are up and running, solara and some other shitty executors MAY not support the games or key system.",
     ["TOS"] = "MikeyHub collects data including ClientID, Roblox Username, Display Name, UserID, Account Age, Executor, and Device. This data is not used in any harmful or malicious way. It is used solely for blacklisting or whitelisting users and tracking script usage. By completing the key system and loading any GUIs, you agree to MikeyHub's Terms of Service and consent to this data collection.\nMany script hubs log your information (INCLUDING IP ADDRESS AND COUNTRY), so please beware when executing scripts that do not provide any Terms of Service.",
-    ["KeySystemDown"] = false,
+    ["KeySystemDown"] = true,
     ["NonSupportedExes"] = {"Solara", "Delta"}
 }
