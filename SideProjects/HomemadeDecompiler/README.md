@@ -1,5 +1,5 @@
 # ABOUT
-> A Decompiler Compressed Into A GUI | HomeMade Decompiler.
+> A Decompiler Compressed Into A GUI | HomeMade Decompiler. >
 Homemade Decompiler is a decompiler made into a gui.
 
 
