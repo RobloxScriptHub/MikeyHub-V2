@@ -1,7 +1,7 @@
 # Abot
 > A Decompiler Compressed Into A GUI | HomeMade Decompiler.
 
-# Booting the Library
+# Booting the Script
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptHub/MikeyHub-V2/main/SideProjects/HomemadeDecompiler/Source"))() ```
 
 # Usage
